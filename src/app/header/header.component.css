@@ -1,0 +1,31 @@
+.banner-photo{
+    position: relative;
+    padding: 0;
+    background: rgba(0,0,0,0.1);
+    background-image: url("../../assets/images/pexels-jane-doan-1128678.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 560px;
+    
+}
+
+.banner-photo:after {
+  content: "";
+  position: fixed;
+  top: 0; bottom: 0; left: 0; right: 0; 
+  background: rgba(0,0,0,0.1);
+  pointer-events: none;
+}
+
+h1{
+    position: absolute;
+    left: 15%;
+    top: 30%;
+    width: 20%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 64px;
+}
+
+span{
+    color: brown;
+}
